@@ -3,11 +3,6 @@
 /******************************************************************************/
 
 const convertToBase10 = (str) => {
-  // Your code here
-
-  // identify if the str variable it is binary or hexadecimal
-  // take the piece of the str variable without it's identifier
-  // loop over the inverse str and sum the total according to the current value of the str variable
   const hexadecimalBase = {
     0: 0,
     1: 1,
@@ -59,3 +54,5 @@ console.log(convertToBase10("0xfa")); // 250
 console.log(convertToBase10("0x1234")); // 4660
 console.log(convertToBase10("0xc9a1")); // 51617
 console.log(convertToBase10("0xbf12")); // 48914
+
+module.exports = convertToBase10;
