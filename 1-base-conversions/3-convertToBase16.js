@@ -42,7 +42,7 @@ const convertToBase16 = (element) => {
 };
 
 /******************************************************************************/
-console.log(hexadecimalBase[11]);
+
 console.log(convertToBase16(4)); // 0x4
 console.log(convertToBase16(65)); // 0x41
 console.log(convertToBase16(256)); // 0x100
